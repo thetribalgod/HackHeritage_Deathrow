@@ -1,0 +1,90 @@
+# 📊 Hospital Patient Management System - HackHeritage 2024
+
+**Team Name:** Deathrow  
+**Problem Statement:** SIH Problem Statement 1620 - Queuing Models in OPDs, Bed Availability, and Patient Admissions  
+**Technologies Used:** MERN Stack, Next.js, PostgreSQL, AWS, Gen AI, Tailwind CSS
+
+## 🏥 Overview
+
+This project is a comprehensive hospital-based patient management system aimed at improving patient flow, bed management, and overall hospital efficiency. The system integrates a variety of features that streamline patient care, appointment scheduling, doctor-patient communication, and resource management.
+
+## 🚀 Features
+
+- **Appointment Scheduling:** Patients can schedule appointments with doctors, and doctors can manage their schedules easily.
+- **Doctor-Patient Chat:** Enables secure communication between doctors and patients.
+- **Doctor's Schedule Management:** Doctors can set availability, accept, or cancel appointments.
+- **Bed Booking:** Real-time tracking of bed availability and management for patient admissions.
+- **Ambulance Booking Integration:** Quick access to ambulance booking directly from the patient management app.
+- **Hospital Inventory Management:** Manages the inventory of medicines and other essential stocks.
+- **Prescription Reading with ML:** An AI model reads and summarizes prescriptions, extracting patient information and providing detailed medication instructions.
+- **Notifications System:** Alerts for appointments, bed availability, ambulance bookings, and more.
+
+## 🛠️ Tech Stack
+
+- **Frontend:** Next.js, React, Tailwind CSS
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB, PostgreSQL
+- **Cloud:** AWS for deployment and storage
+- **AI/ML:** Generative AI for prescription analysis and summarization
+- **Authentication:** JWT for secure user authentication
+- **Data Management:** React Query for state and data fetching
+
+## 🎯 Key Modules
+
+1. **Patient Management:** Allows patients to register, book appointments, and view their medical history.
+2. **Doctor's Dashboard:** Doctors can manage their schedules, view patient details, and chat with patients.
+3. **Inventory Management:** Keeps track of stock levels for medicines, beds, and other hospital resources.
+4. **Ambulance Booking:** Integration with external ambulance booking services, providing quick access to emergency transport.
+5. **AI-Powered Prescription Reading:** Uses Generative AI to extract key information from uploaded prescription images.
+
+## 🖥️ Setup and Installation
+
+### Prerequisites
+
+- Node.js
+- MongoDB/PostgreSQL
+- AWS Account
+- API Key for Generative AI (e.g., Gemini)
+
+### Installation
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/your-repo-url
+   cd hospital-patient-management-system
+   ```
+
+2. **Install Dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Configure Environment Variables:**
+   Create a `.env` file in the root directory and add the required environment variables:
+   ```bash
+   API_KEY=your_api_key
+   DATABASE_URL=your_database_url
+   ```
+
+4. **Run the Application:**
+   ```bash
+   npm run dev
+   ```
+
+5. **Access the Application:**
+   Open your browser and go to `http://localhost:3000`.
+
+## 📈 Future Enhancements
+
+- **City-Wide Integration:** Extend the system to connect with other hospitals in the city for a broader healthcare network.
+- **Advanced Analytics:** Add dashboards for data analytics on patient flow, resource utilization, and treatment outcomes.
+- **Mobile App:** Develop a mobile version of the application for on-the-go access by patients and doctors.
+
+## 👥 Team Members
+
+- Ankit Singh
+- Ananyo Dasgupta
+- Riaz Ahmed Mir
+- Aritra Chatterjee
+- Ritaja Ghosh
+- Shubhra Jyoti Bhattacharjee
