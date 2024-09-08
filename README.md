@@ -111,7 +111,7 @@ The **Hospital Patient Management System** is an innovative solution designed to
 
 ## 👥 Team Members
 
-- Ankit Singh
+- Ankit Singh (Team Lead)
 - Ananyo Dasgupta
 - Riaz Ahmed Mir
 - Aritra Chatterjee
